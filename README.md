@@ -4,13 +4,13 @@
 
 Desloppify gives your AI coding agent the tools to identify, understand, and systematically improve codebase quality. It combines mechanical detection (dead code, duplication, complexity) with subjective LLM review (naming, abstractions, module boundaries), then works through a prioritized fix loop. State persists across scans so it chips away over multiple sessions, and the scoring is designed to resist gaming.
 
-<img src="assets/explained.png" width="100%">
+<img src="explained.png" width="100%">
 
 The score gives your agent a north-star, and the tooling helps it plan, execute, and resolve issues until it hits your target — with a lot of tricks to keep it on track. A score above 98 should correlate with a codebase a seasoned engineer would call beautiful.
 
 That score generates a scorecard badge for your GitHub profile or README:
 
-<img src="assets/scorecard.png" width="100%">
+<img src="scorecard.png" width="100%">
 
 Currently supports 28 languages — full plugin depth for TypeScript, Python, C#, Dart, GDScript, and Go; generic linter + tree-sitter support for Rust, Ruby, Java, Kotlin, and 17 more.
 
